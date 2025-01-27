@@ -15,10 +15,7 @@ body{
     background:
         var(--gradient);
         color: #fdfcfd;
-        font-family: "Poppins";
-
-    padding: auto;
-    margin: auto;    
+        font-family: "Poppins";    
 }
 .card{
     display:flex;
