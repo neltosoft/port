@@ -1,0 +1,39 @@
+
+/* 
+    Criar Clase "menu"
+ */
+.menu > ul {
+    padding: auto;
+    top: auto;
+
+    display: flex;
+    border-radius: 10rem;
+    
+    gap: 1rem;
+    background: rgba(236, 5, 5, 0.135);
+
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.menu > ul > li{
+
+    display: flex;
+    line-height: 18pt; 
+    margin: 1rem;    
+}
+.menu  a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.874);
+   
+}
+.menu  a:hover{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(198, 196, 255);
+    
+}
+
+
+/*Decoração lista*/
+
+
