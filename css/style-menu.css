@@ -32,6 +32,19 @@
     color: rgb(198, 196, 255);
     
 }
+@media (width<= 440px){
+    .menu ul{
+        display: flex;
+        margin-bottom: 1in;
+        padding: 14px 10px 24px 10px;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        border-radius: 10rem;
+    
+    }
+}
 
 
 /*Decoração lista*/
