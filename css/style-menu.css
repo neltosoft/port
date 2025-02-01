@@ -2,25 +2,34 @@
 /* 
     Criar Clase "menu"
  */
-.menu > ul {
-    padding: auto;
-    top: auto;
+ .menu{
+    display:flexbox;
+    align-items: center;
+    justify-items: center;
+    place-items:inherit;
+}
 
+.menu > ul {
     display: flex;
+    margin: auto;
+    padding: 14px 10px 24px 10px;
+    
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     border-radius: 10rem;
     
-    gap: 1rem;
-    background: rgba(236, 5, 5, 0.135);
-
-    width: 50%;
-    margin: auto;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 .menu > ul > li{
-
+    width: 15%;
     display: flex;
+    text-align: center;
+    justify-content: center;
     line-height: 18pt; 
-    margin: 1rem;    
+    margin: 1rem; 
 }
 .menu  a{
     text-decoration: none;
