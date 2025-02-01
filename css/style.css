@@ -8,7 +8,7 @@
             45deg,
             #ff7c7d,
             #ffda67 );
-    --card: #000000;
+    --card: #e4ba1278;
 }
 body{
     
@@ -28,19 +28,17 @@ body{
     border-radius: 24px;
 }
 .card img{
-    padding: 2rem;
-    max-width: 280px;
-    width: 36vw;
+    padding: 1px;
+    
+    margin-left: -60px;
+    margin-right: 40px;
+
+    max-width: 300px;
+    width: 32vw;
     height: 300px;
     object-fit: cover;
-    margin-left: -60px;
-    margin-right: 30px;
     border-radius: inherit;
-    box-shadow: 
-        0 60px 40px
-        rgba(0, 0, 0, 0.20);
-    transition:
-        border-radius 0.3s;
+    transition: border-radius 0.3s;
 }
 .card h2{
     font-size: 22px;
