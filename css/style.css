@@ -101,7 +101,7 @@ body{
 
 /*CSS 3*/
 
-@media (width <= 490px /*600px*/) { 
+@media (width <= 600px) { 
     .card{
         /*original*/
         /*
@@ -151,8 +151,8 @@ body{
         width: 50vw;
         border-radius: 50%;
         border:
-            6px solid var(--card);
-        margin: -140px 0 30px 0; 
+        6px solid var(--card);
+        margin: -6rem 0 30px 0; 
     }
 }
 /* 
