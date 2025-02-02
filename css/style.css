@@ -23,14 +23,13 @@ body{
     position:relative;    
     align-items: center;
     align-content: center;
+    flex-direction: column;
     
     margin:auto;
     padding: 44px 30px 44px 20px;
     width: 75vw;
     max-width: 820px;
-    
-    
-    
+
     background: var(--card);
     border-radius: 14px;
 }
@@ -107,7 +106,7 @@ body{
 
 /*CSS 3*/
 
-@media (width <= 490px) {
+@media (width <= 500px) {
     .card{
         
         margin:auto;
@@ -138,6 +137,7 @@ body{
     }
     .card p{
         max-width: 360px;
+        text-align: justify;
     }
     .socials ul li{
         margin: auto;
