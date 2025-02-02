@@ -133,10 +133,13 @@ body{
     .card p{
         max-width: 360px;
     }
-    .socials li{
+    .socials ul li{
         display: flex;
         position: relative;
         justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
     }
 }
 @media (width <= 600px) {
