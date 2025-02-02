@@ -125,6 +125,9 @@ body{
         text-align: center;
         flex-direction: column;
     }
+    .card ul li{
+        text-align: justify;
+    }
     .card h2{
         margin-right: 0;
         font-size: 26px;
