@@ -134,6 +134,7 @@ body{
         max-width: 360px;
     }
     .socials ul li{
+        margin: auto;
         display: flex;
         position: relative;
         justify-content: center;
