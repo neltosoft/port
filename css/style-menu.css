@@ -24,12 +24,24 @@
     margin-bottom: 1rem;
 }
 .menu > ul > li{
+    /*
     width: 15%;
     display: flex;
     text-align: center;
     justify-content: center;
     line-height: 18pt; 
     margin: 1rem; 
+    */
+    display: flex;
+    position: relative;
+
+    text-align: center;
+    justify-content: center;
+    line-height: 14pt; 
+    width: 25%;
+    
+    padding: auto;
+    margin: auto;
 }
 .menu  a{
     text-decoration: none;
@@ -43,6 +55,7 @@
 }
 @media (width<= 440px){
     .menu ul{
+        /*
         display: flex;
         margin-bottom: 1in;
         padding: 14px 10px 24px 10px;
@@ -51,7 +64,16 @@
         align-items: center;
         width: 50%;
         border-radius: 10rem;
-    
+        */
+        display:flex;
+        position:relative;
+        
+        
+        padding: 14px 10px 24px 10px;
+
+        width: 50%;
+        gap: 44px;
+        margin-top: 1rem;
     }
 }
 
