@@ -5,10 +5,10 @@
 }
 :root{
     --gradient:
-        linear-gradient(
-            45deg,
-            #ff7c7d,
-            #ffda67 );
+    linear-gradient(
+    45deg,
+        #ff7c7d,
+        #d4a006 );
     --card: #e4ba1278;
 }
 body{
@@ -19,7 +19,7 @@ body{
         font-family: "Poppins";    
 }
 .card{
-
+    /*
     display:flex;
     position:relative;    
     align-items: center;
@@ -33,7 +33,15 @@ body{
 
     background: var(--card);
     border-radius: 14px;
-    
+    */
+    display: flex;
+    margin:auto;
+    align-items: center;
+    width: 75vw;
+    max-width: 820px;
+    padding: 10px 40px 40px 0px;
+    background: var(--card);
+    border-radius: 14px ;
 }
 .card img{
     /*
