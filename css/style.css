@@ -96,6 +96,8 @@ body{
     font-weight: 400;
     margin-bottom: 30px;
     opacity: 0.5;
+
+    line-height: 22pt;
     text-align: justify;
 }
 
